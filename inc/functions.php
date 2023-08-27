@@ -11,7 +11,7 @@ function db_open() {
         PDO::ATTR_EMULATE_PREPARES => false,
         PDO::MYSQL_ATTR_MULTI_STATEMENTS => false,
     ];
-    $dbh = new PDO('mysql:host=localhost;dbname=your_db', $user, $password, $opt);
+    $dbh = new PDO('mysql:host=DB_HOST;dbname=YOUR_DB', $user, $password, $opt);
     return $dbh; //返り値を返す
 }
 ?>
