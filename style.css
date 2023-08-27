@@ -1,0 +1,115 @@
+html{
+	font-size: calc((100vw - 320px) / 140 + 16px);
+}
+
+body{
+	background:#facaba;
+	font-family:'Noto Sans JP', sans-serif;
+	font-size: 1rem;
+}
+
+.b{
+	font-weight:bold;
+}
+
+.wrp{
+	width:92vw;
+	margin:0 auto;
+}
+
+.callname{
+	margin-top:1.2rem;
+}
+
+.menu{
+	width:100%;
+	display: flex;
+	justify-content: space-between;	
+	margin:0.2rem 0 0.5rem 0;
+	padding:0.2rem 0;
+}
+
+.menu a{
+	display:block;
+	background:#000066;
+	text-align: center;
+	border-radius:8px;
+	padding:0.4rem;
+	color: #fff;
+	text-decoration: none;
+	font-size:1.1rem;
+}
+
+.menu a:first-child{
+	background:#cf4343;
+}
+
+.main{
+	width:100%;
+	background:#fff;
+	border-radius:10px;
+	padding:1rem;
+	box-sizing: border-box;
+	margin-bottom:1.5rem;
+	text-align:center;
+}
+
+.main img{
+	width:100%;
+	margin-top:10px;
+}
+
+#xxx{
+	margin-bottom:2em;
+	font-size: 1rem;
+}
+
+#xxx img,
+.main .gallery img{
+	width:92vw;
+	margin-left: calc(-50vw + 50%);
+	margin-right: calc(-50vw + 50%);
+}
+
+.main #xxx,
+.main .gallery {
+    font-size: 1rem;
+}
+
+h1{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight:700;
+	font-size: 1.5rem;
+}
+
+.banner{
+	display:flex;
+}
+
+.banner a{
+	flex-basis:50%;
+}
+
+.copy{
+	text-align:center;
+}
+
+.page_caption{
+	text-align:left;
+}
+
+.page_caption p{
+	margin-bottom:2.2rem;
+}
+
+.spots_list{
+	display:block;
+	background:#feeddd;
+	padding:10px;
+	font-size: 1rem;
+}
+
+.page_caption p:last-child{
+	font-size:0.7rem;
+	color:#999;
+}
